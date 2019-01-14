@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------------------------------
+
+MODEL DATA
+*CDM : conceptual data model (lumayan dekat dengan database)
+*LGM : logical data model (tidak terlalu dekat dengan database)
+*PDM : pysychal data model (paling dekat dengan database(menjelaskan lebih rinci mengenai isi database))
+
+--------------------------------------------------------------------------------------------------------
+
+TIPE DATA DBMS MICROSOFT ACCESS
+- text : 255 char, alfanumerik(nama, alamat, dll)
+- memo : 64.000 char setiap field, tdk bisa diurutkan
+- auto number : data otomatis, secara urut ata acak untuk penomoran
+- number : data numeric, perhitungan matematis bilangan
+- date : data tanggal/waktu, atau penggabungan keduanya
+- currency : tipe number, awal angka disertai simbol format numerik
+- yes/no : tipe data 2 pilihan(yes or no, 1 or true, 0 or false)
+
+--------------------------------------------------------------------------------------------------------
+
+CARA PEMBUATAN DATABASE :
+- menyusun konsep database yang di sesuaikan dengan kebutuhan
+- membuat design database(varchar, dll) sesuaikan dengan kebutuhan. misalkan nama(50 char) alamat(100 char)
+- membuat database yang sesuai (coding ataupun visual)
+
+--------------------------------------------------------------------------------------------------------
+
+null : data boleh kosong
+not null : data tidak boleh kosong
+Ascending : pengurutan dari kecil ke besar
+Descending : dari besar ke kecil
